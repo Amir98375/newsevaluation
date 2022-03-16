@@ -1,0 +1,32 @@
+
+  #container{
+    display: flex;
+
+    
+}
+#sidebar{
+    flex: 2;
+   
+}
+#main{
+    flex: 8;
+  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    background-color:whitesmoke;
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+
+image{
+    height: 300px;
+    
+  }
+  P{
+      color:grey;
+      font-size: 10px;
+  }
+  
